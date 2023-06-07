@@ -7,14 +7,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-.networking, .resource, .skilldev, .details, .stories, .about {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-} 
-
 .home {
   display: flex;
   flex-direction: column; 
@@ -123,8 +115,140 @@
 
 .skilldev h2 {
   font-size: 20px;
-  text-align: left;
-  align-self: flex-start;
+  text-align: center;
+  align-self: center;
   margin-left: 10px; /* Adjust the left margin as needed */
-  margin-top: 0; /* Add this to remove the default top margin */
+  margin-top: 10px; /* Add this to remove the default top margin */
 }
+
+.skilldev h3 {
+  font-size: 10px;
+  text-align: end;
+  align-self: center;
+}
+
+.networking  {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center; /* Align vertically in the middle */
+  background-color: whitesmoke;
+}
+
+.networking h1 {
+  font-size: 40px;
+  text-align: center; /* Align center horizontally */
+  align-self: center; /* Align center vertically */
+}
+
+.networking h2, h4, h6, h8, h10 {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+}
+
+.networking h3, h5, h7, h9, h11 {
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: lighter;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+}
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center; /* Align vertically in the middle */
+  background-color: whitesmoke;
+}
+
+.resource h1{
+  font-size: 40px;
+  text-align: center; /* Align center horizontally */
+  align-self: center; /* Align center vertically */
+}
+
+.resource h2, h4, h6, h8, h10 {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+}
+
+.resource h3, h5, h7, h9, h11 {
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: lighter;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.stories h1 {
+  font-size: 3rem;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.stories h2, h4, h6 {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+}
+
+  .stories h3, h5, h7 {
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  font-weight: lighter;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  margin-top: 10px; /* Add this to remove the default top margin */
+  }
+
+  .about {
+    display: flex;
+    height: 90vh;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+  } 
+  
+  .about h1 {
+    font-size: 3rem;
+    align-self: center;
+  }
+  
+  .about h2 {
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-weight: lighter;
+    margin-left: 10px; /* Adjust the left margin as needed */
+    margin-top: 10px; /* Add this to remove the default top margin */
+  }
+  

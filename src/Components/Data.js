@@ -53,10 +53,4 @@ export const Data = [
         cname: 'nav-text'
     },
 
-    {
-        title: 'About the Creator',
-        path: '/details',
-        icons: <BsIcons.BsFillFileEarmarkPersonFill />,
-        cname: 'nav-text'
-    },
 ]
